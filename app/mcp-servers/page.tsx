@@ -78,6 +78,9 @@ import {
 } from "@/services/mcpServerService"
 import { MCPServer, MCPServerCreate, ToolConfig } from "@/types/mcpServer"
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function MCPServersPage() {
   const { toast } = useToast()
   const [isLoading, setIsLoading] = useState(false)

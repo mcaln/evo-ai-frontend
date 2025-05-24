@@ -75,6 +75,9 @@ interface FunctionMessageContent {
   author?: string;
 }
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function Chat() {
   const [isLoading, setIsLoading] = useState(true);
   const [agents, setAgents] = useState<any[]>([]);

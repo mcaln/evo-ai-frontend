@@ -39,8 +39,8 @@ import { PublicEnvScript } from "next-runtime-env";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Evo AI",
-  description: "AI Multi-Agent Platform",
+  title: "BestGov AI",
+  description: "Plataforma Multi-agentes de IA",
   icons: {
     icon: "/favicon.svg",
   },

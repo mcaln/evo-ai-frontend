@@ -43,6 +43,9 @@ import { SourceClickProvider } from "@/contexts/SourceClickContext";
 import { useToast } from "@/hooks/use-toast";
 import { AgentTestChatModal } from "./nodes/components/agent/AgentTestChatModal";
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 function WorkflowsContent() {
   const searchParams = useSearchParams();
   const agentId = searchParams.get('agentId');

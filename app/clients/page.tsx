@@ -76,6 +76,9 @@ import {
 } from "@/services/clientService"
 import { useRouter } from "next/navigation"
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function ClientsPage() {
   const { toast } = useToast()
   const router = useRouter()

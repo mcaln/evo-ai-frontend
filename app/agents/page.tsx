@@ -67,6 +67,9 @@ import { ShareAgentDialog } from "./dialogs/ShareAgentDialog";
 import { MCPServer } from "@/types/mcpServer";
 import { availableModels } from "@/types/aiModels";
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function AgentsPage() {
   const { toast } = useToast();
   const router = useRouter();

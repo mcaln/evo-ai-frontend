@@ -152,10 +152,10 @@ export default function Sidebar() {
       <div className="mb-8">
         <Link href="/">
           <Image
-            src="https://evolution-api.com/files/evo/logo-evo-ai.svg"
-            alt="Evolution API"
-            width={90}
-            height={40}
+            src="https://res.cloudinary.com/dz58jqf62/image/upload/v1748011004/bestgov-logo-br_u4wt2w.svg"
+            alt="BestGov AI"
+            width={192}
+            height={60}
             className="mt-2"
           />
         </Link>
@@ -230,9 +230,9 @@ export default function Sidebar() {
             </div>
           )}
         </div>
-        <div className="text-sm text-gray-400">Evo AI</div>
+        <div className="text-sm text-gray-400">BestGov AI</div>
         <div className="text-xs text-gray-500 mt-1">
-          © {new Date().getFullYear()} Evolution API
+          © {new Date().getFullYear()} BestGov AI
         </div>
       </div>
       

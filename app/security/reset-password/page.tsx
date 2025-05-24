@@ -45,6 +45,9 @@ import { Loader2, CheckCircle2, XCircle } from "lucide-react";
 import { resetPassword } from "@/services/authService";
 import Link from "next/link";
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function ResetPasswordPageWrapper() {
   return (
     <Suspense fallback={null}>

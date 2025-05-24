@@ -38,6 +38,9 @@ import { useToast } from "@/components/ui/use-toast"
 import { Shield } from "lucide-react"
 import { changePassword } from "@/services/authService"
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function SecurityPage() {
   const { toast } = useToast()
   const [isLoading, setIsLoading] = useState(false)

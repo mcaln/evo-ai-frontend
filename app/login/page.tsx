@@ -50,6 +50,9 @@ import Link from "next/link";
 import { login, forgotPassword, getMe, register, resendVerification } from "@/services/authService";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
   const router = useRouter();
   const { toast } = useToast();
@@ -232,11 +235,11 @@ export default function LoginPage() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-[#121212] p-4">
       <div className="mb-8">
         <Image
-          src="https://evolution-api.com/files/evo/logo-evo-ai.svg"
-          alt="Evolution API"
+          src="https://res.cloudinary.com/dz58jqf62/image/upload/v1748011004/bestgov-logo-br_u4wt2w.svg"
+          alt="BestGov AI"
           width={140}
           height={30}
-          priority
+          priority          
         />
       </div>
 

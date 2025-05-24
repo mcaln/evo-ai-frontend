@@ -35,6 +35,9 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { Loader2, CheckCircle2, XCircle } from "lucide-react"
 import { verifyEmail } from "@/services/authService"
 
+// Adicione esta linha para forçar a renderização dinâmica da página
+export const dynamic = 'force-dynamic';
+
 export default function VerifyEmailPageWrapper() {
     return (
         <Suspense fallback={null}>
